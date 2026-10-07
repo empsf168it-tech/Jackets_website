@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AEROWARD — Jackets / Fashion & Apparel</title>
+<meta name="description" content="AEROWARD contemporary jackets and outerwear." />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23121716'/%3E%3Cpath d='M20 15l12 9 12-9 8 13-7 5v18H19V33l-7-5 8-13z' fill='none' stroke='%23d7b77a' stroke-width='3'/%3E%3Cpath d='M32 24v27' stroke='%23d7b77a' stroke-width='2'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="home-redesign">
+<header class="site-nav">
+<a class="brand" href="index.html"><span class="brand-mark"><svg viewBox="0 0 64 64" fill="none"><path d="M20 15l12 9 12-9 8 13-7 5v18H19V33l-7-5 8-13z" stroke="currentColor" stroke-width="4"/><path d="M32 24v27" stroke="currentColor" stroke-width="3"/></svg></span><span>AEROWARD</span></a>
+<nav class="nav-links"><a class="active" href="index.html">Home</a><a href="collections.html">Collections</a><a href="services.html">Services</a><a href="about.html">About</a><a class="nav-cta" href="contact.html">Contact</a><a class="nav-login" href="login.html">Login</a><a class="nav-dashboard" href="dashboard.html">Dashboard</a></nav>
+<button class="menu-btn" aria-label="Open menu" aria-expanded="false">☰</button>
+<div class="mobile-panel"><a class="active" href="index.html">Home</a><a href="collections.html">Collections</a><a href="services.html">Services</a><a href="about.html">About</a><a href="contact.html">Contact</a><a class="nav-login" href="login.html">Login</a><a class="nav-dashboard" href="dashboard.html">Dashboard</a></div>
+</header>
+<main>
+<section class="new-hero" id="home">
+  <div class="hero-noise"></div><div class="hero-image" id="heroImage"></div>
+  <div class="hero-orbit orbit-a"></div><div class="hero-orbit orbit-b"></div>
+  <div class="new-hero-content container">
+    <div class="eyebrow kinetic"><span>JACKETS / FASHION & APPAREL</span></div>
+    <h1 class="kinetic-title"><span>Wear the</span><span>weather.</span></h1>
+    <p class="hero-copy">A sharper outerwear system for city movement — engineered layers, expressive silhouettes and tactile details built to travel.</p>
+    <div class="actions"><a class="btn primary magnetic" href="collections.html">Explore collection <b>↗</b></a><a class="text-link" href="#edit">Scroll the edit <span>↓</span></a></div>
+    <div class="hero-bottom"><span>AEROWARD / MOTION</span><span class="hero-line"><i></i></span><span>OUTERWEAR / STUDIO EDIT</span></div>
+  </div>
+  <div class="hero-side-note">DESIGNED FOR<br><em>movement</em></div>
+</section>
+
+<section class="section paper new-section" id="edit">
+ <div class="container">
+  <div class="section-head compact-head"><div><div class="section-kicker">The new edit</div><h2>Three moods.<br><em>One outer layer.</em></h2></div><p>Three visual directions, three construction ideas. Hover each frame to reveal the attitude behind the silhouette.</p></div>
+  <div class="mood-grid">
+   <article class="mood-card mood-slice"><div class="mood-media"><img src="https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&w=1800" alt="Black jacket fashion look"></div><div class="mood-copy"><small>CITY / SHADOW</small><h3>Night commuter</h3><p>Clean volume, matte hardware and a graphic shoulder line.</p></div></article>
+   <article class="mood-card mood-lift"><div class="mood-media"><img src="https://images.pexels.com/photos/298863/pexels-photo-298863.jpeg?auto=compress&cs=tinysrgb&w=1800" alt="Contemporary jacket styling"></div><div class="mood-copy"><small>FIELD / LIGHT</small><h3>Open-air utility</h3><p>Soft layers and practical pockets without visual weight.</p></div></article>
+   <article class="mood-card mood-focus"><div class="mood-media"><img src="https://images.pexels.com/photos/842811/pexels-photo-842811.jpeg?auto=compress&cs=tinysrgb&w=1800" alt="Modern fashion outerwear"></div><div class="mood-copy"><small>STUDIO / FORM</small><h3>Quiet statement</h3><p>Precise proportion for a silhouette that does the talking.</p></div></article>
+  </div>
+ </div>
+</section>
+
+<section class="section dark material-section">
+ <div class="container">
+  <div class="section-head compact-head"><div><div class="section-kicker light">Material motion</div><h2>Touch the<br><em>construction.</em></h2></div><p>Material cues move through a kinetic strip while the jacket image responds to your pointer.</p></div>
+  <div class="material-stage" id="materialStage">
+   <div class="material-photo"><img src="https://images.pexels.com/photos/6311390/pexels-photo-6311390.jpeg?auto=compress&cs=tinysrgb&w=1800" alt="Technical jacket closeup"></div>
+   <div class="material-panel"><span class="material-label">AEROWARD / FIELD 01</span><h3 id="materialTitle">Technical shell</h3><p id="materialText">A dry-touch outer layer with a crisp structure, designed to move without losing its shape.</p><div class="material-switch"><button class="active" data-title="Technical shell" data-text="A dry-touch outer layer with a crisp structure, designed to move without losing its shape.">SHELL</button><button data-title="Soft insulation" data-text="Light insulation that keeps warmth close while preserving a clean silhouette.">INSULATION</button><button data-title="Utility trim" data-text="Low-profile hardware, secure pockets and considered seams keep the surface calm.">TRIM</button></div></div>
+   <div class="material-spec spec-one">DRY TOUCH</div><div class="material-spec spec-two">LIGHTWEIGHT</div><div class="material-spec spec-three">WEATHER READY</div>
+  </div>
+  <div class="material-ticker"><div>TACTILE / PRECISE / RESILIENT / MOBILE / TACTILE / PRECISE / RESILIENT / MOBILE /</div></div>
+ </div>
+</section>
+
+<section class="section paper silhouette-section">
+ <div class="container">
+  <div class="section-head compact-head"><div><div class="section-kicker">Silhouette lab</div><h2>Find your<br><em>line.</em></h2></div><p>Tap a silhouette. The image frame, measurement line and copy shift to match the chosen fit language.</p></div>
+  <div class="silhouette-lab">
+   <div class="silhouette-menu"><button class="sil-btn active" data-style="01" data-name="The long line" data-desc="A longer hem and relaxed shoulder for a graphic, protective profile."><span>LONG</span></button><button class="sil-btn" data-style="02" data-name="The cropped line" data-desc="A shorter body with a stronger waist break and a faster visual rhythm."><span>CROPPED</span></button><button class="sil-btn" data-style="03" data-name="The box line" data-desc="A straight volume with controlled width for an understated modern shape."><span>BOX</span></button></div>
+   <div class="silhouette-image"><img id="silhouetteImg" src="https://images.pexels.com/photos/3760854/pexels-photo-3760854.jpeg?auto=compress&cs=tinysrgb&w=1800" alt="Fashion silhouette"><div class="measure-line"><i></i><span id="styleNo" aria-hidden="true" style="display:none">01</span></div><div class="image-caption"><small>FIT STUDY</small><strong id="styleName">The long line</strong><p id="styleDesc">A longer hem and relaxed shoulder for a graphic, protective profile.</p></div></div>
+  </div>
+ </div>
+</section>
+
+<section class="section dark motion-grid-section">
+ <div class="container">
+  <div class="section-head compact-head"><div><div class="section-kicker light">Motion index</div><h2>Details that<br><em>move.</em></h2></div><p>A compact set of interactive cards — each uses a different movement language instead of repeating one animation.</p></div>
+  <div class="motion-grid">
+   <article class="motion-card tilt-card"><div class="motion-icon">↗</div><span>CUT</span><h3>Articulated sleeves</h3><p>Built around the natural movement of the arm.</p><div class="motion-line"></div></article>
+   <article class="motion-card scan-card"><div class="motion-icon">◎</div><span>WEATHER</span><h3>Shielded surfaces</h3><p>Layered protection without the visual bulk.</p><div class="scan-light"></div></article>
+   <article class="motion-card flip-card"><div class="flip-inner"><div class="flip-front"><div class="motion-icon">◇</div><span>HARDWARE</span><h3>Quiet hardware</h3><p>Low-profile closures keep the surface clean.</p></div><div class="flip-back"><strong>YKK / MATTE</strong><small>Secure · minimal · durable</small></div></div></article>
+   <article class="motion-card type-card"><div class="type-run">AEROWARD</div><span>IDENTITY</span><h3>Graphic restraint</h3><p>Brand details stay precise, never noisy.</p></article>
+  </div>
+ </div>
+</section>
+
+<section class="section paper lookbook-section">
+ <div class="container">
+  <div class="section-head compact-head"><div><div class="section-kicker">The lookbook</div><h2>Frame after<br><em>frame.</em></h2></div><p>A horizontal visual sequence with depth changes, image masks and a final collection callout.</p></div>
+  <div class="lookbook-track">
+   <article><img src="https://images.pexels.com/photos/1884581/pexels-photo-1884581.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Leather jacket look"><span>LEATHER</span></article>
+   <article><img src="https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Fashion outerwear look"><span>SHELL</span></article>
+   <article><img src="https://images.pexels.com/photos/1126993/pexels-photo-1126993.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Street jacket look"><span>UTILITY</span></article>
+   <article><img src="https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Layered jacket look"><span>LAYER</span></article>
+  </div>
+  <div class="final-home-cta"><div><small>NEXT DROP</small><h3>Build your<br><em>outer layer.</em></h3></div><a class="btn primary magnetic" href="collections.html">View all jackets <b>↗</b></a></div>
+ </div>
+</section>
+</main>
+<footer><div class="container footer-row"><span>© 2026 AEROWARD — Jackets / Fashion & Apparel</span><span><a href="login.html">Login</a> · <a href="signup.html">Create account</a> · <a href="dashboard.html">Dashboard</a></span></div></footer>
+<script src="app.js"></script>
+<script>
+(() => {
+ const hero=document.getElementById('heroImage'), imgs=['https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&w=2200','https://images.pexels.com/photos/298863/pexels-photo-298863.jpeg?auto=compress&cs=tinysrgb&w=2200','https://images.pexels.com/photos/842811/pexels-photo-842811.jpeg?auto=compress&cs=tinysrgb&w=2200']; let hi=0;
+ imgs.forEach(src=>{const i=new Image();i.src=src}); hero.style.backgroundImage=`url('${imgs[0]}')`; setInterval(()=>{hi=(hi+1)%imgs.length;hero.classList.add('fade');setTimeout(()=>{hero.style.backgroundImage=`url('${imgs[hi]}')`;hero.classList.remove('fade')},420)},5200);
+ const stage=document.getElementById('materialStage'); stage?.addEventListener('pointermove',e=>{const r=stage.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;stage.style.setProperty('--mx',`${x*12}px`);stage.style.setProperty('--my',`${y*10}px`)});
+ document.querySelectorAll('.material-switch button').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.material-switch button').forEach(x=>x.classList.remove('active'));b.classList.add('active');document.getElementById('materialTitle').textContent=b.dataset.title;document.getElementById('materialText').textContent=b.dataset.text}));
+ const silImgs=['https://images.pexels.com/photos/3760854/pexels-photo-3760854.jpeg?auto=compress&cs=tinysrgb&w=1800','https://images.pexels.com/photos/994523/pexels-photo-994523.jpeg?auto=compress&cs=tinysrgb&w=1800','https://images.pexels.com/photos/769732/pexels-photo-769732.jpeg?auto=compress&cs=tinysrgb&w=1800'];
+ document.querySelectorAll('.sil-btn').forEach((b,i)=>b.addEventListener('click',()=>{document.querySelectorAll('.sil-btn').forEach(x=>x.classList.remove('active'));b.classList.add('active');const im=document.getElementById('silhouetteImg');im.classList.add('swap');setTimeout(()=>{im.src=silImgs[i];document.getElementById('styleNo').textContent=b.dataset.style;document.getElementById('styleName').textContent=b.dataset.name;document.getElementById('styleDesc').textContent=b.dataset.desc;im.classList.remove('swap')},300)}));
+ document.querySelectorAll('.magnetic').forEach(btn=>btn.addEventListener('pointermove',e=>{const r=btn.getBoundingClientRect();btn.style.setProperty('--bx',`${(e.clientX-r.left-r.width/2)*.12}px`);btn.style.setProperty('--by',`${(e.clientY-r.top-r.height/2)*.12}px`)}));
+ document.querySelectorAll('.magnetic').forEach(btn=>btn.addEventListener('pointerleave',()=>{btn.style.setProperty('--bx','0px');btn.style.setProperty('--by','0px')}));
+})();
+</script>
+</body></html>
